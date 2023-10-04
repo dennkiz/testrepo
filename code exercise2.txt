@@ -1,0 +1,9 @@
+def multip(num1):
+    try:
+        resat=num1*2
+        return resat
+    except ValueError:
+        print('Invalid input! Please enter an integer or a float value')
+
+num1=int(input('Enter a value'))
+print(multip(num1))
